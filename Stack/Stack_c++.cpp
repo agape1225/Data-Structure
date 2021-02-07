@@ -19,11 +19,11 @@ void Stack:: Push() {
 	top += 1;
 	if (isFull()) {
 		top -= 1;
-		PrintError("ÇÔ¼ö°¡ Æ÷È­»óÅÂÀÔ´Ï´Ù.");
+		PrintError("í•¨ìˆ˜ê°€ í¬í™”ìƒíƒœì…ë‹ˆë‹¤.");
 	}
 	else {
 		int item;
-		printf("Á¤¼ö: ");
+		printf("ì •ìˆ˜: ");
 		scanf("%d", &item);
 		arr[top] = item;
 	}
@@ -31,7 +31,7 @@ void Stack:: Push() {
 
 int Stack::Pop() {
 	if (isEmpty()) {
-		PrintError("½ºÅÃÀÌ ºñ¾îÀÖ½À´Ï´Ù.");
+		PrintError("ìŠ¤íƒì´ ë¹„ì–´ìˆìŠµë‹ˆë‹¤.");
 		return false;
 	}
 	else
