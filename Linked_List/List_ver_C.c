@@ -87,7 +87,7 @@ NodePtr DeleteNode(NodePtr head, int n) {
 		free(del);
 	}
 	else
-		printf("Á¸ÀçÇÏÁö ¾Ê´Â ¿ä¼Ò ÀÔ´Ï´Ù.");
+		printf("ì¡´ìž¬í•˜ì§€ ì•ŠëŠ” ìš”ì†Œ ìž…ë‹ˆë‹¤.");
 	return head;
 }
 
