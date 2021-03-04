@@ -1,0 +1,5 @@
+﻿  Graph.c
+c:\창규\공부\알고리즘\직접 만들기\my_graph\my_graph\graph.c(15): warning C4133: '=': 'str_Vertex *'과(와) 'str_Edge *' 사이의 형식이 호환되지 않습니다.
+c:\창규\공부\알고리즘\직접 만들기\my_graph\my_graph\graph.c(105): warning C4098: 'printGraph': 'void' 함수에서 값을 반환하고 있습니다.
+c:\창규\공부\알고리즘\직접 만들기\my_graph\my_graph\graph.c(41): warning C4716: 'createEdge': 값을 반환해야 합니다.
+  My_Graph.vcxproj -> C:\창규\공부\알고리즘\직접 만들기\My_Graph\Debug\My_Graph.exe
